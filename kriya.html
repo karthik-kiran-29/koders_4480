@@ -8,19 +8,27 @@
     <style>
 
 #nav{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+  color:black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  
 }
 
 #ele{
             font-family: sans-serif;
-            border: black;
+            border-color: black;
             border-radius: 5px;
-            
+            margin:10px 10px 10px 10px;
+            padding:20px;            
         }
 
+#logo{
+    align-self: flex-end;
+}
+    
 .headline{
     height: 600px;
     font-weight: bold;
@@ -31,7 +39,19 @@
     padding: 0px;
     text-align: center;
 
-}        
+}
+
+#date{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    align-items:space-evenly ;
+    width: 100%;
+}
+
+.time{
+    flex-direction: column;
+}
     </style>
 </head>
 <body>
@@ -48,7 +68,15 @@
     </nav>
     <hr/>
     <h1 class="headline">THE FESTIVAL OF URGENT REINVENTORS</h1>
-    <div>
+    <div id="date">
+        <span class="time">
+            <h4>WHEN</h4>
+            <h2>Feb 3-4,2024</h2>
+        </span>
+        <span class="time">
+            <h4>MISSED THE FESTIVAL?</h4>
+            <a href="g.com">Watch Event</a>
+        </span>
 
     </div>
 </body>
