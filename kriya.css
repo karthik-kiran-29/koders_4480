@@ -1,0 +1,161 @@
+
+.headline {
+    padding: auto;
+    margin: auto; 
+   width: 80%;
+   font-size: 10rem;
+   height: 550px;
+   font-family:  monospace;
+   text-align: center;
+   
+}  
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 200px;
+  }
+
+#nav :first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+}  
+
+.ele {
+    border: #050505 solid ;
+    margin: auto 10px;
+    padding: 10px;
+    border-radius: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}  
+
+
+#main{
+background: linear-gradient(to top, rgb(128, 245, 128), white);
+}
+
+
+#date{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Courier New', Courier, monospace;
+  place-items: centre;
+  width: 100%;
+}
+
+.time {
+padding: 20px 100px;
+text-align: center;
+}
+
+.time a{
+color: #090909;
+font-size: 2rem;
+}
+
+.schedule {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+gap: 20px;
+width: 80%;
+padding-left: 10%;}
+
+.schedule-item {
+padding: 20px;
+border-bottom:black 1px solid ;
+border-radius: 5px;
+
+}
+
+.schedule-item time {
+font-size: 0.8em;
+color:#090909;
+}
+
+.schedule-item h3 {
+margin: 0;
+font-size: 1.2em;
+}
+
+.schedule-item p {
+margin-top: 10px;
+}
+
+.menu-container {
+    /* background-color: #fff; */
+    border: #050505 solid 1px;
+    border-radius: 100px;
+    width: 800px;
+    height: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .menu-container h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .day {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .menu-container:first-child{
+  color: #ffffff;
+  background-color:rgb(0, 0, 0);
+  margin-right: 0%;
+}
+
+.menu-container:first-child span{
+  background-color: inherit;
+  color: #fff;
+}
+.menu-container :last-child{
+  color: #050505;
+  margin-left: 0cap;
+}
+
+.menu-parent{
+   display: flex;
+   padding: auto;
+   margin: 2rem auto;
+   flex-direction: row;
+   width: 60%;
+}
+
+#watch-now {
+  display: flex;
+  flex-direction: row;
+  color: #050505;
+  font-size: 1rem;
+  font: black;
+  padding: auto;
+  margin: auto;
+}
+
+#sponsers {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: gray;
+  background-color: #050505;
+  height: 10rem;
+}
+
+#sponsers p{
+  display: flex;
+  flex-direction: row-reverse;
+}
